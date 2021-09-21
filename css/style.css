@@ -1,11 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mukta:700');
+
+
 .row {
-    margin-top: 100px;
+    margin-top: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .bg-col-left {
-    background-color: #e6edf3;
+    background-color: rgb(233, 233, 233);
     width: 60%;
-    transition: 0.5s ease-out;
+    transition: 0.2s ease-out;
     padding: 40px 0px 50px 0px;
     position: relative;
 }
@@ -13,6 +18,8 @@
 .image {
     display: flex;
     justify-content: center;
+    border-image: linear-gradient(#f6b73c, #4d9f0c) 30;
+
 }
 
 .bg-col-left img {
@@ -40,4 +47,85 @@
     justify-content: space-around;
     list-style-type: none;
     align-items: center;
+    font-family: 'Roboto';
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.stacks li:hover {
+    color: rgb(131, 131, 131);
+    transition: 0.3s;
+}
+
+ul {
+    margin-bottom: 0px !important;
+}
+
+.rightside {
+    background-color: #000000;
+    color: white;
+}
+
+
+
+.center-text {
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.rightside a {
+    text-decoration: none;
+    font-family: 'Mukta', sans-serif;
+    text-transform: uppercase;
+    color: rgb(90, 101, 255);
+    padding: 3px 20px 3px 20px;
+    border: 1px solid rgb(253, 253, 253);
+    border-radius: 3px;
+    transition: 0.3s ease-out;
+}
+
+.rightside a:hover {
+    background-color: white;
+    color: black;
+    transition: 0.3s ease-out;
+}
+
+.icons {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fa-html5, .fa-css3-alt, .fa-js-square, .fa-node, .fa-react {
+    font-size: 50px;
+}
+
+.fa-html5 {
+    color: #e44d26;
+    transition: 0.2s ease-in;
+}
+
+.fa-css3-alt {
+    color: #196db1;
+    transition: 0.2s ease-in;
+}
+
+.fa-js-square {
+    color: #85c21d;
+    transition: 0.2s ease-in;
+}
+
+.fa-node {
+    color:#549f42;
+    transition: 0.2s ease-in;
+}
+
+.fa-react {
+    color: #00cdf2;
+    transition: 0.2s ease-in;
+}
+
+.fa-html5:hover, .fa-css3-alt:hover, .fa-js-square:hover, .fa-node:hover, .fa-react:hover {
+    color: rgba(255, 255, 255, 0.296);
+    transition: 0.2s ease-in;
 }
