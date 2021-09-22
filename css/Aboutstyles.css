@@ -1,19 +1,29 @@
 .html{
     margin-top: 20px;
+    width: auto;
+    height: auto;
 }
 .paragraph{
     font-family: sans-serif;
     font-size: 18pt;
     text-align: center;
+    padding: 20px;
 }
 .subparagraph{
     font-family: sans-serif;
     font-size: 14pt;
     text-align: center;
+    padding-bottom: 10px;
+}
+.flexteam{
+    display:flex;
+    justify-content: center;
 }
 .team{
     text-align: center;
     background-color: lightblue;
+    padding-top: 2px;
+    padding-bottom: 5px;
 }
 .images{
     display: flex;
@@ -40,6 +50,14 @@
     position: relative;
     margin-top: 300px;
 }
-.bilal{
-    padding-right: 10px;
+.contact{
+    background-color: lightgrey;
+    margin-left: 20px;
+}
+.address{
+    font-family: sans-serif;
+    color: olivedrab;
+    font-size: x-large;
+    object-position: center;
+    text-emphasis-position: under;
 }

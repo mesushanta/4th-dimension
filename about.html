@@ -3,40 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <title>About us</title>
-    <link rel="stylesheet" href="Aboutstyles.css" media="screen" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/Aboutstyles.css" media="screen" />
 </head>
 <body>
-<p class="paragraph">
-    4th Dimension brings you websites with the latest technology with the best lay-out youcan ever imagine. It's finely
-    built with great aesthetics, functionality and beautiful view. It's easy to use, it's user-friendly,
-    it's fast-loading and it's a real eye-catcher. We also provide the best semantics for the quality of the SEO
-    of your website.</p>
-<p class="subparagraph">We bring you the quality that no other company can match up with. Our website contain almost none to no bugs,
-    so you will encounter no errors when receiving, using and publishing it.
-</p>
-<h2 class="team">
-    Our team:
-</h2>
-<div class="images">
-<img class="image" src="Sushanta.jpg" title='Sushanta' alt="Sushanta">
-<img class="image" src="Bilal.png" title='Bilal' alt="Bilal">
-<img class="image1" src="Maga.jpg" title='Magomed' alt="Magomed">
-<img class="image1" src="Sofiane.jpg" title='Sofiane' alt="Sofiane">
+
+<div class="container">
+    <p class="paragraph">
+        4th Dimension brings you websites with the latest technology with the best lay-out youcan ever imagine. It's finely
+        built with great aesthetics, functionality and beautiful view. It's easy to use, it's user-friendly,
+        it's fast-loading and it's a real eye-catcher. We also provide the best semantics for the quality of the SEO
+        of your website.</p>
+    <p class="subparagraph">We bring you the quality that no other company can match up with. Our website contain almost none to no bugs,
+        so you will encounter no errors when receiving, using and publishing it.
+    </p>
+    <div class="flexteam"><h2><span class="team">
+        Our team:
+    </span></h2></div>
+    <div class="images">
+        <div class="row">
+            <div class="col-md-4">
+                <div>
+                    <img class="image" src="images/Sushanta.jpg"  title="Sushanta" alt="Sushanta">
+                        <div class="caption">
+                            <p>Sushanta <br> 0697/495.683 <br> sushanta@4thdimension.be</p>
+                        </div>
+                </div>
+            </div>
+            </div>
+        <div>
+            <div class="col-md-4">
+                <div>
+                    <img class="image" src="images/Bilal.png"  title="Bilal" alt="Bilal">
+                    <div class="caption">
+                        <p>Bilal <br> 0796/248.354 <br> bilal@4thdimension.be</p>
+                    </div>
+                </div>
+            </div>
+           </div>
+        <div class="row">
+            <div class="col-md-4">
+            <div>
+                <img class="image1" src="images/Maga.jpg"  title="Magomed" alt="Magomed">
+                <div class="caption">
+                    <p>Magomed <br> 0674/157.315 <br> magomed@4thdimension.be</p>
+                </div>
+            </div>
+        </div>
+            </div>
+        <div>
+            <div class="col-md-4">
+            <div>
+                <img class="image1" src="images/Sofiane.jpg"  title="Sofiane" alt="Sofiane">
+                <div class="caption">
+                    <p>Sofiane <br> 0567/149.138 <br> sofiane@4thdimension.be</p>
+                </div>
+            </div>
+          </div>
+     </div>
+   </div>
+
+
+<div class="row">
+    <div class="col-6">
+        <div class="fcf-body">
+            <div id="fcf-form">
+                <div class="fcf-h3">
+                    <h3><span class="contact">Contact us</span></h3></div>
+
+                <form id="fcf-form-id" class="fcf-form-class" method="post">
+
+                    <div class="fcf-form-group">
+                        <label for="Name" class="fcf-label"><i>Your name</i></label>
+                        <div class="fcf-input-group">
+                            <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                        </div>
+                    </div>
+
+                    <div class="fcf-form-group">
+                        <label for="Email" class="fcf-label"><i>Your email address</i></label>
+                        <div class="fcf-input-group">
+                            <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                        </div>
+                    </div>
+
+                    <div class="fcf-form-group">
+                        <label for="Message" class="fcf-label"><i>Your message</i></label>
+                        <div class="fcf-input-group">
+                            <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                        </div>
+                    </div>
+
+                    <div class="fcf-form-group">
+                        <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <div class="col-6">
+        <p class="address"><i>Subisostreet 7, 2000 Antwerp</i></p>
+    </div>
 </div>
-<div class="images">
-    <p>Sushanta</p>
-    <p class="bilal">Bilal</p>
-    <p>Magomed</p>
-    <p>Sofiane</p>
 </div>
-<footer class="footer">
-<strong>
-    Contact
-</strong>
-<p>Sushanta: 0697 495 683, sushanta@4thdimension.be</p>
-<p>Bilal: 0796 248 354, bilal@4thdimension.be</p>
-<p>Magomed: 0674 157 315, magomed@4thdimension.be</p>
-<p>Sofiane: 0567 149 138, sofiane@4thdimension.be</p>
-</footer>
+
+
+<script src="js/bootstrap.bundle.min.js" charset="utf-8"></script>
+<script src="js/jquery.min.js" charset="utf-8"></script>
 </body>
 </html>
