@@ -1,0 +1,70 @@
+h1 {
+  margin-top: 1%;
+}
+
+.img {
+  width: 80px;
+  margin: 10px auto;
+}
+.row {
+  margin-top: 5%;
+}
+.col {
+  height: 200px;
+}
+.card {
+  margin: 0 auto;
+}
+
+.card-body {
+  justify-content: center;
+}
+
+.card-text {
+  width: 90%;
+  margin: 0 auto;
+  display: none;
+}
+/* What we use? */
+
+.framework {
+  width: 60% !important;
+  height: 160px;
+
+  transition: 0.5s all;
+}
+.framework:hover {
+  width: 100% !important;
+  /* height: 170px; */
+}
+
+/* Price */
+
+.price-2 {
+  display: none;
+}
+
+.col:hover .price {
+  display: none;
+}
+.col:hover .price-2 {
+  display: block;
+}
+.price-info {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Footer */
+
+footer {
+  margin: 50px 0;
+  text-align: center;
+}
+.footer-link {
+  text-decoration: none;
+  color: #0b090a;
+}
+.footer-btn:hover .footer-link {
+  color: #f5f3f4;
+}
