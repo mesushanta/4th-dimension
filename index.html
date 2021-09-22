@@ -56,7 +56,7 @@
       </div>
 
 
-    <section class="container px-0 py-0 mt-5">
+    <section class="container px-0 py-0 my-5">
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -109,7 +109,7 @@
       </section>
 
 
-    <section>
+    <section id="slogan_wrap">
       <div class="slogan d-flex justify-content-center">
         <div class="slogan-1">
           <h3>Web Development</h3>
@@ -137,23 +137,82 @@
       </div>
     </section>
 
-      <section class="parallax d-flex justify-content-center">
+    <section class="parallax d-flex justify-content-center">
 
-        <div class="align-self-center text-center">
-          <h3 class="">
-              Title Of Parallax
-          </h3>
+      <div class="align-self-center text-center">
+        <h3 class="parallax_title">
+            Start your project or scale your team
+        </h3>
+      </div>
 
-          <h5>
-              Sub Content of parallax
-          </h5>
-        </div>
-
-      </section>
+    </section>
 
       <section>
+        <div id="" class="container py-5 my-5 max-800">
+          <h3 class="h3_title py-5">
+            <span class="red_tilt"></span>
+            <span>Why Us?</span>
+          </h3>
 
+          <div class="row py-5 px-5">
+
+              <div class="col-12 shadow_bottom">
+                <h3 class="h4_title">
+                  <span class="number_space">01.</span>
+                  <span>Expertise</span>
+                </h3>
+                <p class="why_us_p">
+                  4th dimension has over 12 years of experience, with hundreds of apps and websites built with a broad spectrum of technologies delivered to satisfied clients.
+                </p>
+              </div>
+
+              <div class="col-12 mt-4 shadow_bottom">
+                <h3 class="h4_title">
+                  <span class="number_space">02.</span>
+                  <span>Versatility</span>
+                </h3>
+                <p class="why_us_p">
+                No client is exactly the same. Our skills range allow us to recommend the right technologies for each client and deliver quality work on time.
+                </p>
+              </div>
+
+              <div class="col-12 mt-4 shadow_bottom">
+                <h3 class="h4_title">
+                  <span class="number_space">03.</span>
+                  <span>International</span>
+                </h3>
+                <p class="why_us_p">
+                  We are able to support clients in every time zone with representatives located in SNew York, London Sydney and Singapore.
+                </p>
+              </div>
+
+              <div class="col-12 mt-4">
+                <h3 class="h4_title">
+                  <span class="number_space">04.</span>
+                  <span>Flexibility</span>
+                </h3>
+                <p class="why_us_p">
+                  We are Agile and love using Scrum and Kanban which gives our clients full flexibility and transparency in their projects and requirements management. The ability to adapt and respond to changes is our primary goal.
+                </p>
+              </div>
+
+          </div>
+        </div>
       </section>
+
+      <div class="container">
+  <h2 class="slider_title">Our  Partners</h2>
+   <section class="customer-logos slider">
+      <div class="slide"><img src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg"></div>
+      <div class="slide"><img src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg"></div>
+      <div class="slide"><img src="https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg"></div>
+      <div class="slide"><img src="https://image.freepik.com/free-vector/colors-curl-logo-template_23-2147536125.jpg"></div>
+      <div class="slide"><img src="https://image.freepik.com/free-vector/abstract-cross-logo_23-2147536124.jpg"></div>
+      <div class="slide"><img src="https://image.freepik.com/free-vector/football-logo-background_1195-244.jpg"></div>
+      <div class="slide"><img src="https://image.freepik.com/free-vector/background-of-spots-halftone_1035-3847.jpg"></div>
+      <div class="slide"><img src="https://image.freepik.com/free-vector/retro-label-on-rustic-background_82147503374.jpg"></div>
+   </section>
+</div>
 
       <footer>
         <div class="container border-top mt-5 mb-5">
@@ -163,6 +222,30 @@
 
       <script src="js/bootstrap.bundle.min.js" charset="utf-8"></script>
       <script src="js/jquery.min.js" charset="utf-8"></script>
-
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+      <script type="text/javascript">
+      $(document).ready(function(){
+        $('.customer-logos').slick({
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1500,
+            arrows: false,
+            dots: false,
+            pauseOnHover: false,
+            responsive: [{
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 4
+                }
+            }, {
+                breakpoint: 520,
+                settings: {
+                    slidesToShow: 3
+                }
+            }]
+        });
+    });
+      </script>
   </body>
 </html>

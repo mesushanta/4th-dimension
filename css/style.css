@@ -195,6 +195,7 @@ html, body {
 }
 .carousel-caption p {
   color: #555;
+  font-weight: 200;
 }
 .custon_carousel-control-prev {
   position: absolute;
@@ -218,12 +219,23 @@ html, body {
   display: flex;
   width: 100%;
   min-height: 700px;
-  background: url(../images/parallax.jpg) no-repeat center center fixed;
+  background: url(../images/parallax.jpg) no-repeat center center fixed #373737;
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
  background-size: cover;
-opacity: 0.75;
+opacity: 0.95;
+}
+.parallax_title {
+  font-size: 4rem;
+  color: #B91C1C;
+  padding: 5px 10px;
+  background: rgba(255,255,255,0.8);
+  box-shadow: 0 0 10px #000;
+  font-weight: 300;
+}
+#slogan_wrap {
+  padding: 40px 0 100px 0;
 }
 
 .slogan {
@@ -391,14 +403,14 @@ header {
   animation-delay: 2s;
 }
 #welcome_title {
-  font-size: 60px;
+  font-size: 3.5rem;
   font-weight: 400;
 }
 #welcome_title span.bordered-span {
   border-bottom: 3px solid #000;
 }
 #welcome_text {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 300;
   margin-top: 30px;
 }
@@ -415,4 +427,182 @@ header {
   color: #B91C1C !important;
 }
 .nav-item:hover:after { transform: scaleX(1);transform-origin:  0% 50%; }
+}
+
+#why_us {
+  padding-top: 100px;
+  margin-top: 100px;
+}
+
+.h3_title {
+  font-weight: 400;
+  font-size: 2.8rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.h3_title span {
+  display: inline-block;
+  height: 50px;
+  display: flex;
+}
+.h3_title span.red_tilt {
+  width: 15px;
+  height: 80px;
+  background: red;
+  margin-right: 40px;
+  transform: skewX(-20deg);
+}
+
+.h4_title {
+  font-weight: 300;
+  font-size: 1.8rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.h4_title span.number_space {
+  display: inline-block;
+  width: 80px;
+}
+.max-800 {
+  max-width: 800px;
+}
+
+.why_us_row {
+  padding: 0
+}
+.why_us_p {
+  padding: 20px 0 20px 80px;
+  font-size: 1.4rem;
+  font-weight: 200;
+}
+.shadow_bottom {
+  /* box-shadow: 0px 15px 15px -15px #999; */
+  border-bottom: 3px dashed #d1d1d1;
+}
+
+/* Slider */
+
+.slider_title {
+  text-align:center;
+  padding: 20px;
+  font-size: 3rem;
+}
+/* Slider */
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
 }
