@@ -4,11 +4,39 @@
     <title>Works</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css.map">
+    <link rel="icon" type="image/png" href="images/favicon.png"/>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light px-4 py-4 mt-3">
+        <div class="container">
+          <a class="navbar-brand mt-2 mt-lg-0 shadow px-4 py-2 border mr-5" href="index.html">
+            <span class="text-red-2 bg-light">4th</span> <span class="text-gray-3">dimension</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-4">
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="services.html">Services</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="works.html">Projects</a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+    </nav>
+    <div>
+        <h1 class="works-title">Our projects</h1>
+    </div>
     <div class="container">
-        <div class="row">
+        <div class="row row-works">
             <div class="col-lg-8 bg-col-left">
                 <div class="image">
                     <img class="shadow-lg mb-5" src="https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt=""> 
@@ -30,7 +58,7 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div id="showUp" class="row row-works hide">
             <div class="col-lg-8 bg-col-left">
                 <div class="image">
                     <img class="shadow-lg mb-5" src="https://images.pexels.com/photos/4960464/pexels-photo-4960464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt=""> 
@@ -51,10 +79,46 @@
                     <i class="fab fa-vuejs"></i>
                 </div>
             </div>
-        </div>
-
+        </div> 
         
+        <div class="row row-works">
+            <div class="col-lg-8 bg-col-left">
+                <div class="image">
+                    <img class="shadow-lg mb-5" src="https://cdn.pixabay.com/photo/2015/05/08/14/47/seo-758264_960_720.jpg" alt=""> 
+                </div>
+            </div>
+            <div class="col-lg-4 rightside">
+                <h1>AdAgency</h1>
+                <hr />
+                <div class="center-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div> 
+                <a href="#">Go to project</a>   
+                <div class="icons">
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-node"></i>
+                    <i class="fab fa-angular"></i>
+                </div>
+            </div>
+        </div> 
     </div>
     <script src="https://kit.fontawesome.com/ff9ea49a8d.js" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        myID = document.querySelector("#showUp");
+
+        let myScrollFunc = function() {
+        let y = window.scrollY;
+        if (y > 300) {
+            if (myID.classList.contains("hide")) {
+                myID.classList.add("show");
+                myID.classList.remove("hide");
+            }
+        }
+        };
+        window.addEventListener("scroll", myScrollFunc);
+    </script>
 </body>
 </html>
