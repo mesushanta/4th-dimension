@@ -3,27 +3,24 @@
 
 
 .row {
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-bottom: 50px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .bg-col-left {
-    background-color: rgb(233, 233, 233);
-    width: 60%;
+    background-color: rgba(233, 233, 233, 0.623);
     transition: 0.2s ease-out;
-    padding: 40px 0px 50px 0px;
-    position: relative;
+    padding: 50px 0px 50px 0px;
 }
 
 .image {
     display: flex;
     justify-content: center;
-    border-image: linear-gradient(#f6b73c, #4d9f0c) 30;
-
 }
 
 .bg-col-left img {
-    width: 500px;
+    width: 520px;
     transition: 0.3s ease;
 }
 
@@ -32,45 +29,15 @@
     transition: 0.3s ease;
 }
 
-.stacks-used {
-    width: 100%;
-    background-color: rgb(0, 0, 0);
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    color: white;
-    font-weight: bold;
-}
-
-.stacks {
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
-    align-items: center;
-    font-family: 'Roboto';
-    font-size: 17px;
-    font-weight: 700;
-}
-
-.stacks li:hover {
-    color: rgb(131, 131, 131);
-    transition: 0.3s;
-}
-
-ul {
-    margin-bottom: 0px !important;
-}
-
 .rightside {
     background-color: #000000;
     color: white;
 }
 
-
-
 .center-text {
     margin-top: 50px;
     font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
 .rightside a {
@@ -96,7 +63,7 @@ ul {
     justify-content: space-around;
 }
 
-.fa-html5, .fa-css3-alt, .fa-js-square, .fa-node, .fa-react {
+.fa-html5, .fa-css3-alt, .fa-js-square, .fa-node, .fa-react, .fa-vuejs, .fa-php  {
     font-size: 50px;
 }
 
@@ -125,7 +92,21 @@ ul {
     transition: 0.2s ease-in;
 }
 
-.fa-html5:hover, .fa-css3-alt:hover, .fa-js-square:hover, .fa-node:hover, .fa-react:hover {
+.fa-vuejs {
+    color: rgb(0, 255, 115);
+    transition: 0.2s ease-in;
+}
+
+.fa-php {
+    color: rgb(56, 79, 210);
+    transition: 0.2s ease-in;
+}
+
+.fa-html5:hover, .fa-css3-alt:hover, .fa-js-square:hover, .fa-node:hover, .fa-react:hover, .fa-vuejs:hover, .fa-php:hover {
     color: rgba(255, 255, 255, 0.296);
     transition: 0.2s ease-in;
+}
+
+.mb-5 {
+    margin-bottom: 0px !important;
 }
