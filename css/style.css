@@ -310,7 +310,7 @@ opacity: 0.75;
 .slogan-4 h3 {
     font-size: 28px;
     font-weight: 300;
-    maefin-left: 50px;
+    margin-left: 50px;
 }
 .slogan-4 h4 {
   font-size: 20px;
@@ -336,7 +336,6 @@ opacity: 0.75;
   padding: 5px 20px;
   font-size: 36px;
 }
-<<<<<<< HEAD
 
 .row-works {
     margin: 30px 0px 30px 0px   ;
@@ -351,7 +350,7 @@ opacity: 0.75;
     opacity: 1;
     transition: 0.3s ease-in; 
 }
-=======
+
 .transparent {
   background: transparent !important;
   position: relative;
@@ -380,13 +379,13 @@ header {
 
 /* ANIMATIONS */
 /* The animation code */
-@keyframes from-left {
+/* @keyframes from-left {
   transform: translate(3em,0);
   -webkit-transform: translate(3em,0);
   -moz-transform: translate(3em,0);
   -o-transform: translate(3em,0);
   -ms-transform: translate(3em,0);
-}
+} */
 .viewport-header {
   position: relative;
   height: 100vh;
@@ -398,4 +397,3 @@ header {
   animation-duration: 4s;
   animation-delay: 2s;
 }
->>>>>>> 5a6f066c2d0e321191c00fd743c8b6fe46b19268
