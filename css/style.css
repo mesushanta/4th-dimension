@@ -1,0 +1,197 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+.container-fluid{
+    padding: 0 !important;
+}
+
+.text-red-1 {
+    color: #EF4444;
+}
+.text-red-2 {
+    color: #B91C1C;
+}
+.text-red-3 {
+    color: #7F1D1D;
+}
+
+.text-gray-1 {
+    color: #EF4444;
+}
+.text-gray-2 {
+    color: #374151;
+}
+.text-gray-3 {
+    color: #111827;
+}
+
+/* .bg-red-2 {
+  background:
+}
+.bg-red-2 {
+  background:
+}
+.bg-red-2 {
+  background:
+} */
+.carousel-item {
+  position: relative;
+  height: 700px;
+}
+.carousel-caption {
+  width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background: rgba(255,255,255,1);
+  box-sizing: border-box;
+
+}
+.carousel-caption h5 {
+  color: #333;
+}
+.carousel-caption p {
+  color: #555;
+}
+.custon_carousel-control-prev {
+  position: absolute;
+  left: 0px;
+  top: 600px;
+  background: #000;
+  width: 70px;
+  height: 70px;
+}
+.custom_carousel-control-next {
+  position: absolute;
+  left: 100px;
+  top: 600px;
+  background: #000;
+  width: 70px;
+  height: 70px;
+}
+
+/* Parallax */
+.parallax1 {
+  display: flex;
+  width: 100%;
+  min-height: 700px;
+  background: url(../images/parallax.jpg) no-repeat center center fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+opacity: 0.75;
+}
+
+.slogan {
+  height: 300px;
+  width: 300px;
+  margin: 200px auto !important;
+  color: #555;
+  font-size: 3rem;
+  font-weight: 200;
+  transform: rotate(-45deg);
+  position: relative;
+  /* border-bottom: 1px solid #EF4444; */
+  /* border: 1px solid; */
+}
+.slogan-1{
+  width: 300px;
+  height: 80px;
+  position: absolute;
+  top: -35px;
+  left: 20px;
+  z-index: 9;
+  font-size: 28px;
+}
+.circle-1 {
+  width: 100px;
+  height: 100px;
+  background: #EF4444;
+  border-radius: 50%;
+  position: absolute;
+  right: 100px;
+  top: -50px;
+}
+.center_square {
+  width: 100px;
+  height: 100px;
+  flex-wrap: wrap;
+  transform: rotate(45deg);
+  color: #ddd;
+}
+.slogan-2 {
+  width: 200px;
+  height: 60px;
+  padding: 15px 20px;
+  border-radius: 10px;
+  background: #EF4444;
+  color: #fafafa;
+  transform: rotate(90deg) !important;
+  position: absolute;
+  top: 120px;
+  left: 200px;
+
+}
+.slogan-1 h3 {
+    font-size: 28px;
+    font-weight: 300;
+    border-bottom: 2px solid #EF4444;
+    color: #444;
+}
+.slogan-1 h4 {
+  font-size: 20px;
+  font-weight: 200;
+  color: #444;
+}
+
+.slogan-2 h3 {
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+}
+.slogan-2 h4 {
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.slogan-3 h3 {
+    font-size: 28px;
+    font-weight: 300;
+}
+.slogan-3 h4 {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.slogan-4 h3 {
+    font-size: 28px;
+    font-weight: 300;
+}
+.slogan-4 h4 {
+  font-size: 20px;
+  font-weight: 200;
+}
+.slogan-3 {
+  width: 300px;
+  height: 80px;
+  position: absolute;
+  top: 260px;
+  left: 50px;
+  font-size: 28px;
+}
+.slogan-4 {
+  width: 300px;
+  height: 90px;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 130px;
+  right: 185px;
+  border-top: 10px solid #EF4444;
+  box-sizing: border-box;
+  padding: 5px 20px;
+  font-size: 36px;
+}
