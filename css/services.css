@@ -8,46 +8,6 @@ h4, h5 {
   font-size: 16px;
 }
 
-  @media (min-width: 768px) {
-    h4, h5 {
-      font-size: 18px;
-    }
-    .img {
-      width: 40px;
-    }
-    .col {
-      height: 100px;
-    }
-    .framework {
-      margin-bottom: 20px;
-    }
-    .price-2 {
-      display: none;
-    }
-    
-    .col:focus .price {
-      display: none;
-    }
-    .col:focus .price-2 {
-      display: block;
-    }
-    .price-info {
-      width: 90%;
-      margin: 0 auto;
-    }
-  }
-  @media (min-width: 992px){
-    h4, h5 {
-      font-size: 16px;
-    }
-  }
-  @media (min-width: 1200px){
-    h4, h5 {
-      font-size: 24px;
-    }
-  }
-
-
 .img {
   width: 80px;
   margin: 10px auto;
@@ -55,7 +15,7 @@ h4, h5 {
 .row {
   margin-top: 5%;
 }
-.col {
+.col, .price-col {
   height: 200px;
 }
 .card {
@@ -90,13 +50,6 @@ h4, h5 {
 .price-2 {
   display: none;
 }
-
-.col:hover .price {
-  display: none;
-}
-.col:hover .price-2 {
-  display: block;
-}
 .price-info {
   width: 90%;
   margin: 0 auto;
@@ -114,4 +67,58 @@ footer {
 }
 .footer-btn:hover .footer-link {
   color: #f5f3f4;
+}
+
+
+
+/* Making responsive */
+@media (min-width: 768px) { /* Small devices (tablets, 768px and up) */
+  h4, h5 {
+    font-size: 18px;
+  }
+  .img {
+    width: 40px;
+  }
+  .col {
+    height: 100px;
+  }
+  .framework {
+    margin-bottom: 20px;
+  }
+  .price-2 {
+    display: none;
+  }
+  
+  .price-col:hover .price {
+    display: none;
+  }
+  .price-col:hover .price-2 {
+    display: block;
+  }
+  .price-info {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 992px){  /* Medium devices (desktops, 992px and up) */
+  h4, h5 {
+    font-size: 16px;
+  }
+  .price-col:hover .price {
+    display: none;
+  }
+  .price-col:hover .price-2 {
+    display: block;
+  }
+}
+@media (min-width: 1200px){ /* Large devices (large desktops, 1200px and up) */
+  h4, h5 {
+    font-size: 24px;
+  }
+  .price-col:hover .price {
+    display: none;
+  }
+  .price-col:hover .price-2 {
+    display: block;
+  }
 }
