@@ -23,3 +23,6 @@ Bilal: https://github.com/NewDev58
 Sofiane: https://github.com/makhouts
 
 Maga: https://github.com/MagaSu
+
+Screenshot of the project:
+![ScreenShot](screenshot.png)
