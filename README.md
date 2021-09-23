@@ -24,10 +24,4 @@ Our site is maked with css framework - Bootstrap 5.
 Screenshot of the project:
 ![ScreenShot](screenshot.png)
 
-.
-░░░░░░░░░░░▄▄▄▄▄▄▄▄▄▄██▄▄▄▄▄▄▄▄▄░░░░▄░
-▄███████████████████████▀▀▀▀▀▀▀██████▀  ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️
-██████▀▀▀░▄██▀░░▀███░░░░░░░░░░░░░░░░░░
-▀▀▀▀░░░░░░██░░░░░▀██▄░░░░░░░░░░░░░░░░░
-░░░░░░░░░░░░░░░░░░▀███▄░░░░░░░░░░░░░░░
-░░░░░░░░░░░░░░░░░░░░▀▀░░░░░░░░░░░░░░░░
+## I'm hungry, so I don't know what else to write. Imagine a nice text here....
