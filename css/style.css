@@ -612,6 +612,93 @@ header {
     display: none;
 }
 
+<<<<<<< HEAD
+#footer {
+  margin-top: 100px;
+  padding: 10px 0;
+  min-height: 300px;
+  background: #101010;
+  box-shadow: 0 0 10px #555;
+
+}
+.footer_info_title {
+  font-size: 1.5rem;
+  line-height: 3rem;
+  font-weight: 300;
+  color: #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
+}
+.footer_info {
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.6rem;
+  font-weight: 200;
+  color: #e1e1e1;
+}
+#footer_contact_details {
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.6rem;
+  font-weight: 200;
+  color: #e1e1e1;
+}
+#footer_contact_details ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+#footer_contact_details ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: #e1e1e1;
+  padding: 10px 0;
+}
+#footer_contact_details ul li a {
+  color: #e1e1e1;
+  text-decoration: none;
+}
+#footer_contact_details ul li a:hover {
+  color: #e1e1e1;
+  text-decoration: underline;
+}
+#social_icons {
+  margin: 0;
+  padding: 0;
+}
+#social_icons li {
+  list-style: none;
+  display: inline-block;
+  color: #e1e1e1;
+  margin: 10px;
+  font-size: 40px;
+  background: transparent;
+}
+
+#social_icons li a{
+  list-style: none;
+  display: inline-block;
+  color: #e1e1e1;
+  margin: 10px;
+  font-size: 40px;
+  background: transparent;
+}
+.fa-facebook-square:hover {
+  color: #4267B2;
+}
+.fa-instagram-square:hover {
+  color: #C13584;
+}
+.fa-twitter-square:hover {
+  color: #1DA1F2
+}
+.fa-linkedin:hover {
+  color: #2867B2;
+}
+.fa-github-square:hover {
+  color: #555;
+}
+=======
 .animate__jackInTheBox {
 color: white;
 background-color: #ff00009c;
@@ -907,3 +994,4 @@ textarea.input1 + .shadow-input1 {
 }
 
 
+>>>>>>> be5fdb45f0b8147ebc39a427f1634b215b32d59d
