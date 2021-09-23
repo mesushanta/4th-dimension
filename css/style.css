@@ -59,7 +59,7 @@
     font-weight: 300;
 }
 
-.rightside a {
+.button-with-border {
     text-decoration: none;
     font-family: 'Mukta', sans-serif;
     text-transform: uppercase;
@@ -68,9 +68,10 @@
     border: 1px solid rgb(253, 253, 253);
     border-radius: 3px;
     transition: 0.3s ease-out;
+    margin-top: 10px;
 }
 
-.rightside a:hover {
+.button-with-border:hover {
     background-color: white;
     color: black;
     transition: 0.3s ease-out;
