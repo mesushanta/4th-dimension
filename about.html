@@ -30,6 +30,15 @@
     <meta name="geo.placename" content="Antwerpens" />
     <meta name="geo.position" content="51.225578; 4.400860" />
     <meta name="ICBM" content="51.225578, 4.400860" />
+        <!-- Global Site Tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=TRACKING_ID"></script>
+
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'TRACKING_ID');
+        </script>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -46,7 +55,7 @@
 <header>
     <nav class="navbar navbar-expand-lg navbar-light px-4 py-6 transparent">
         <div class="container">
-            <a class="navbar-brand mt-2 mt-lg-0 shadow px-4 py-2 border mr-5 bg-white" href="#">
+            <a class="navbar-brand mt-2 mt-lg-0 shadow px-4 py-2 border mr-5 bg-white" href="index.html">
                 <span class="text-red-2 bg-light">4th</span> <span class="text-gray-3">dimension</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,7 +64,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-4">
                     <li class="nav-item mx-3">
-                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link active" href="about.html">About</a>
                     </li>
                     <li class="nav-item mx-3">
                         <a class="nav-link" href="services.html">Services</a>
