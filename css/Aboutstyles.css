@@ -2,28 +2,39 @@
     margin-top: 20px;
     width: auto;
     height: auto;
+    margin-bottom: 80px;
+}
+.title{
+    font-size: 50px;
+    font-family: sans-serif;
+    margin-top: 50px;
+    text-align: left;
 }
 .paragraph{
     font-family: sans-serif;
     font-size: 18pt;
     text-align: center;
-    padding: 20px;
+}
+.paragraph2{
+    font-family: sans-serif;
+    font-size: 17pt;
+    text-align: center;
 }
 .subparagraph{
     font-family: sans-serif;
-    font-size: 14pt;
+    font-size: 15pt;
     text-align: center;
     padding-bottom: 10px;
 }
 .flexteam{
     display:flex;
     justify-content: center;
+    padding-top: 45px;
+    padding-bottom: 15px;
 }
 .team{
     text-align: center;
-    background-color: lightblue;
-    padding-top: 2px;
-    padding-bottom: 5px;
+    font-size: 35px;
 }
 .images{
     display: flex;
@@ -34,16 +45,16 @@
     box-sizing: border-box;
     border: 0;
     vertical-align: baseline;
-    height: 250px;
-    width: 200px;
+    height: 350px;
+    width: 350px;
 }
 .image1{
     padding: 5px;
     box-sizing: border-box;
     border: 0;
     vertical-align: baseline;
-    height: 250px;
-    width: 250px;
+    height: 350px;
+    width: 350px;
 }
 .footer{
     text-align: center;
@@ -53,11 +64,22 @@
 .contact{
     background-color: lightgrey;
     margin-left: 20px;
+    margin-bottom: 50px;
 }
-.address{
+.address {
     font-family: sans-serif;
-    color: olivedrab;
-    font-size: x-large;
-    object-position: center;
-    text-emphasis-position: under;
+    color: grey;
+    font-size: 30px;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.image{
+    font-size: 100px;
+}
+.caption{
+    font-size: 25px;
+}
+.solutions{
+    font-size: 30px;
+    text-align: center;
 }
