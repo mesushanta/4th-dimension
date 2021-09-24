@@ -988,7 +988,7 @@ textarea.input1 + .shadow-input1 {
   }
 }
 
-<<<<<<< HEAD
+
 @media (max-width: 990px) {
   .bg-white-for-nav {
     background: #fff;
@@ -1000,8 +1000,3 @@ textarea.input1 + .shadow-input1 {
     color: #111 !important;
   }
 }
-=======
-#color-white-nav a {
-    color: white;
-}
->>>>>>> 268bdd956d001efb2437fbd029be84fd238112d6
