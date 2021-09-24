@@ -59,11 +59,12 @@ p {
   width: 90%;
   margin: 0 auto;
 }
+
 .price-col:hover .price {
   display: none;
 }
 .price-col:hover .price-2 {
-  width: 100%;
+  width: 50%;
   display: block;
 }
 /* Footer */
@@ -102,7 +103,9 @@ p {
   .price-2 {
     display: none;
   }
-
+  .price-col {
+    width: 50%;
+  }
   .price-col:hover .price {
     display: none;
   }
@@ -122,12 +125,6 @@ p {
   h4,
   h5 {
     font-size: 16px;
-  }
-  .price-col:hover .price {
-    display: none;
-  }
-  .price-col:hover .price-2 {
-    display: block;
   }
 }
 @media (min-width: 1200px) {
