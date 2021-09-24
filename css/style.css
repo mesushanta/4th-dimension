@@ -140,6 +140,7 @@ html, body {
   margin: 0;
   padding: 0;
 }
+
 .container-fluid{
     padding: 0 !important;
 }
@@ -938,7 +939,7 @@ textarea.input1 + .shadow-input1 {
 }
 
 
-
+.
 
 /*------------------------------------------------------------------
 [ Responsive ]*/
@@ -987,9 +988,14 @@ textarea.input1 + .shadow-input1 {
   }
 }
 
-#color-white-nav a {
-    color: white;
+@media (max-width: 990px) {
+  .bg-white-for-nav {
+    background: #fff;
+    margin-top: 5px;
+    border: 1px soid #e1e1e1;
+    box-shadow: 0 0 5px #ccc;
+  }
+  .nav-text-black {
+    color: #111 !important;
+  }
 }
-
-
->>>>>>> be5fdb45f0b8147ebc39a427f1634b215b32d59d
